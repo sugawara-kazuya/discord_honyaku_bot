@@ -5,6 +5,7 @@ bottle==0.12.18
 click==7.1.2
 certifi==2020.6.20
 chardet==3.0.4
+discord
 flask==2.0.1
 future==0.18.2
 gast==0.3.3
@@ -24,6 +25,7 @@ pillow==7.2.0
 protobuf==3.12.4
 PyYAML==5.4.1
 python-dotenv==0.14.0
+qrcode==7.3.1
 requests==2.25.1
 scipy==1.4.1
 six==1.15.0
