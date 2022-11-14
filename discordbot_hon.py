@@ -4,12 +4,12 @@ from googletrans import Translator
 #from translate import Translator
 
 # 自分のBotのアクセストークンに置き換えてください
-TOKEN = 'MTAyODk0NzY1NTMxOTEwOTY4Mw.GfsWpc.9QXo2s1prq697UMAO8RJXal2scrh4DHl196VS0'
+TOKEN = TOKENID
 
 # 送りたいチャンネル指定
-SEND_CHANNELID = 1035112058653528114
+SEND_CHANNELID = SENDCHANNELID
 # メッセージを取りたいチャンネル指定
-CHACH_CHANELID = 1037722976935739402
+CHACH_CHANELID = CHACHCHANELID
 # 接続に必要なオブジェクトを生成
 client = discord.Client(intents=discord.Intents.all())
 translator = Translator()
