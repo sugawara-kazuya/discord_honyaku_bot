@@ -1,6 +1,7 @@
 # インストールした discord.py を読み込む
 import discord
 from googletrans import Translator
+import os
 #from translate import Translator
 
 # 自分のBotのアクセストークンに置き換えてください
